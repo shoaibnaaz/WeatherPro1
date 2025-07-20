@@ -1,0 +1,36 @@
+{
+  "name": "weatherpro-app",
+  "version": "1.0.0",
+  "description": "Professional Weather App with Interactive UI",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'No build process needed for vanilla HTML/CSS/JS'",
+    "deploy": "echo 'Ready for deployment to any static hosting service'"
+  },
+  "keywords": [
+    "weather",
+    "forecast",
+    "interactive",
+    "professional",
+    "responsive",
+    "glassmorphism",
+    "modern-ui"
+  ],
+  "author": "WeatherPro Team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/weatherpro-app.git"
+  },
+  "homepage": "https://your-username.github.io/weatherpro-app",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
